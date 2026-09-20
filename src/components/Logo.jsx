@@ -46,14 +46,3 @@ export default function Logo({ size = 'md', className = '', imageUrl = null, bus
     </div>
   )
 }      
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-          <circle cx="12" cy="12" r="8.5" stroke="currentColor" strokeWidth="2" />
-          <circle cx="12" cy="12" r="3" fill="currentColor" />
-        </svg>
-      </span>
-      <span className={`font-heading font-semibold leading-none text-ink ${textSizes[size]}`}>
-        {first} <span className="text-peach">{rest.join(' ')}</span>
-      </span>
-    </div>
-  )
-}
