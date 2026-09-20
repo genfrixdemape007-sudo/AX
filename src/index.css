@@ -145,7 +145,7 @@
       scroll-behavior: auto !important;
     }
   }
-}
+
 
 @layer components {
   /* Chunky "sticker" button — solid fill + hard offset shadow, lifts on hover, presses flush on click */
